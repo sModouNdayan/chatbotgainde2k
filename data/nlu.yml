@@ -1,0 +1,56 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - Bonjour?
+    - bonsoir 
+    - cva
+    - salut
+    - slt
+
+- intent: goodbye
+  examples: |
+    - bye bye
+    - au revoir
+    - bonne journee
+    - à bientot !!
+    - porte toi bien
+
+
+- intent: affirm
+  examples: |
+    - exactement
+    - oui
+    - evidemment
+    - absolument
+- intent: deny
+  examples: |
+    - non
+    - n
+    - jamais
+    - je ne pense pas 
+    - je veux pas ça du tout
+    - pas du tout
+
+- intent:  mood_great 
+  examples: |
+    - magnifique 
+    - je vais bien alhamdouliah
+    - je me sens bien
+    - parfait 
+    - cva alhamdoulih
+    - ça marche
+
+- intent: mood_unhappy
+  examples: |
+    - je me sens pas bien 
+    - pas en bonne humeur
+    - triste
+    - pas du tout content
+    - un peu malade
+
+- intent: bot_challenge
+  examples: |
+    - etes vous un bot ?
+    - etes vous humain ?
